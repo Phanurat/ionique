@@ -98,10 +98,13 @@
 
         // แสดงพิกัดที่ผู้ใช้คลิกใน console เพื่อทดสอบ
         console.log('User clicked at:', userLat, userLng);
+        
       });
     } else {
       console.log('GPS is not available.');
     }
   </script>
+  <button>Save location</button>
+  <p id='test1'></p>
 </body>
 </html>
