@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaflet with Geolocation and User Input</title>
+  <title>Add Location User</title>
   <!-- เรียกใช้ Leaflet ผ่าน CDN -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -103,6 +103,5 @@
       console.log('GPS is not available.');
     }
   </script>
-  <a href="user/add-location.php">User: Add location</a>
 </body>
 </html>
